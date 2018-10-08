@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Vue JS Tutorial</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://unpkg.com/vue"></script>
+    </head>
+    <body>
+        <div id="vue-app">
+           <h1>Keyboard Event</h1>
+           <label for="">Name</label>
+           <input type="text" v-on:keyup.enter="logName">
+           <label for="">Age</label>
+           <input type="text" v-on:keyup.alt.enter="logAge">
+        </div>
+        <script src="vue_keyboard_event.js"></script>
+       
+    </body>
+</html>
